@@ -1,0 +1,40 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scrollbar on body */
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Navbar and Footer should have their own styles for positioning */
+/* Example (you'll likely have more specific styles): */
+.navbar {
+  /* position: fixed; */ /* Or 'sticky', depending on your design */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: ...; */
+  /* z-index: 1000; */ /* Ensure it's above other content */
+}
+
+.footer {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: ...; */
+  text-align: center;
+}
+
+/* If your pages have a lot of content, they might need their own scrolling */
+.page-content {
+  padding: 20px;
+  /* overflow-y: auto;  Enable vertical scrolling within the page content if needed */
+  min-height: calc(100vh - 100px); /* Example: Ensure minimum height, adjust as needed */
+}
+
+  

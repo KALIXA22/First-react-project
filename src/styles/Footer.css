@@ -1,0 +1,14 @@
+.footer-section {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+  }
+  .footer-section p{
+    color: white;
+  }
+
+  

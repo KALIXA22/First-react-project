@@ -1,0 +1,55 @@
+.contact {
+  display:flex;
+  width: 100vw;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+   
+  }
+  .contact p{
+    color: white;
+    padding-left: 30px;
+    line-height:5;
+  }
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: auto;
+    padding: 30px;
+  }
+  
+  form input {
+    height: 40px;
+    width: 80%;
+    border-radius:20px;
+    border:1px solid #121619; 
+    color:white;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 80%;
+    border-radius:20px;
+    border:1px solid #121619; 
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: bold;
+    padding:10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+  }
+  
+  
